@@ -1,0 +1,233 @@
+================================================================================
+BigWigs TurtleWoW - Elnazzareno Edition
+Turtle WoW Compatibility Fixes Documentation
+================================================================================
+
+Author: DarckRovert
+In-Game: Elnazzareno (El Sequito del Terror)
+Date: January 8, 2026
+
+================================================================================
+OVERVIEW
+================================================================================
+
+This document provides technical details about the fixes applied to make
+BigWigs TurtleWoW - Elnazzareno Edition fully compatible with Turtle WoW's
+custom content.
+
+Total Files Modified: 20
+Categories: 5
+
+================================================================================
+CATEGORY 1: SPANISH (esES) TRANSLATION ERRORS
+================================================================================
+
+Files: 3
+- Plugins/SpellRequests.lua
+- Raids/ZG/Gahzranka.lua
+- Raids/AQ20/Buru.lua
+
+Problem:
+Spanish translations contained outdated variable names or references to
+custom Turtle WoW spells not present in Babble-Spell library.
+
+Solution:
+- Replace custom spells with similar existing spells
+- Update variable names to match English (enUS) version
+- Remove obsolete variables
+
+Technical Details:
+1. SpellRequests.lua (Line 510)
+   - Custom spells replaced with standard equivalents
+   - "Hand of Protection" → "Blessing of Protection"
+   - "Grace of the Sunwell" → "Innervate"
+   - "Spirit Link" → "Innervate"
+
+2. Gahzranka.lua (Line 40)
+   - Variable naming convention updated
+   - Old: frostbreath_trigger, frostbreath_bar
+   - New: trigger_frostbreathCast, bar_frostbreathCast
+
+3. Buru.lua (Line 52)
+   - Removed obsolete variables: you_name, other_name, icon_name,
+     watchwarn, watchwarnyou, you
+   - Used Python script (fix_buru.py) for automated correction
+
+================================================================================
+CATEGORY 2: BABBLE-BOSS ERRORS (UBRS)
+================================================================================
+
+Files: 2
+- Raids/UBRS/Emberseer.lua
+- Raids/UBRS/Solakar.lua
+
+Problem:
+References to NPCs that don't exist in Babble-Boss library.
+
+Solution:
+Comment out Babble-Boss library calls for non-existent NPCs.
+
+Technical Details:
+1. Emberseer.lua (Line 3)
+   Error: "Blackhand Incarcerator" does not exist
+   Fix: Commented out BB library reference
+
+2. Solakar.lua (Lines 3-4)
+   Error: "Rookery Hatcher" and "Rookery Guardian" do not exist
+   Fix: Commented out BB library reference
+
+Code Pattern:
+-- local BB = AceLibrary("Babble-Boss-2.2")
+
+================================================================================
+CATEGORY 3: BABBLE-ZONE ERRORS (THE BLACK MORASS)
+================================================================================
+
+Files: 7
+- Raids/BlackMorass/Chronar.lua
+- Raids/BlackMorass/TimeLordEpochronos.lua
+- Raids/BlackMorass/Mossheart.lua
+- Raids/BlackMorass/Rotmaw.lua
+- Raids/BlackMorass/DriftingAvatarOfSand.lua
+- Raids/BlackMorass/Epidamu.lua
+- Raids/BlackMorass/Antnormi.lua
+
+Problem:
+"The Black Morass" is a custom Turtle WoW zone not in Babble-Zone library.
+
+Solution:
+Comment out the second parameter (zone name) in ModuleDeclaration.
+
+Technical Details:
+Before:
+local module, L = BigWigs:ModuleDeclaration("BossName", "The Black Morass")
+
+After:
+local module, L = BigWigs:ModuleDeclaration("BossName") --, "The Black Morass")
+
+This prevents Babble-Zone from attempting to translate a non-existent zone.
+
+================================================================================
+CATEGORY 4: BABBLE-ZONE ERRORS (EMERALD SANCTUM)
+================================================================================
+
+Files: 7
+- Raids/EmeraldSanctum/Erennius.lua
+- Raids/EmeraldSanctum/Solnius.lua
+- Raids/EmeraldSanctum/SanctumWyrmkin.lua
+- Raids/EmeraldSanctum/SanctumSupressor.lua
+- Raids/EmeraldSanctum/SanctumWyrm.lua
+- Raids/EmeraldSanctum/SanctumDragonkin.lua
+- Raids/EmeraldSanctum/SanctumDreamer.lua
+
+Problem:
+"Emerald Sanctum" is a custom Turtle WoW zone not in Babble-Zone library.
+
+Solution:
+Comment out the second parameter (zone name) in ModuleDeclaration.
+
+Technical Details:
+Before:
+local module, L = BigWigs:ModuleDeclaration("BossName", "Emerald Sanctum")
+
+After:
+local module, L = BigWigs:ModuleDeclaration("BossName") --, "Emerald Sanctum")
+
+================================================================================
+CATEGORY 5: CORE SYSTEM VALIDATION
+================================================================================
+
+Files: 1
+- Core.lua
+
+Problem:
+When zone name is commented out in ModuleDeclaration, zoneName becomes nil,
+causing crashes when BZ:HasTranslation(zoneName) is called.
+
+Solution:
+Add nil-check validation before calling HasTranslation.
+
+Technical Details:
+1. Line 1092 - Added nil check:
+   Before: if BZ:HasTranslation(zoneName) then
+   After:  if zoneName and BZ:HasTranslation(zoneName) then
+
+2. Line 1096 - Added fallback value:
+   Before: self.zonename = zoneName
+   After:  self.zonename = zoneName or "Unknown Zone"
+
+This ensures Core.lua handles nil zone names gracefully.
+
+================================================================================
+TESTING METHODOLOGY
+================================================================================
+
+1. Start World of Warcraft (Turtle WoW client)
+2. Execute /reload command
+3. Monitor chat window for Babble errors
+4. Verify all addons load successfully
+5. Test BigWigs functionality in-game
+
+Results:
+✓ No Babble-Spell errors
+✓ No Babble-Boss errors
+✓ No Babble-Zone errors
+✓ No Core.lua errors
+✓ All modules load correctly
+✓ BigWigs functions normally
+
+================================================================================
+FUTURE MAINTENANCE
+================================================================================
+
+If Turtle WoW adds more custom content:
+
+1. Custom Zones:
+   - Comment out zone parameter in ModuleDeclaration
+   - Pattern: BigWigs:ModuleDeclaration("Boss") --, "Custom Zone")
+
+2. Custom Bosses:
+   - Comment out Babble-Boss library calls
+   - Pattern: -- local BB = AceLibrary("Babble-Boss-2.2")
+
+3. Custom Spells:
+   - Replace with similar existing spells in Babble-Spell
+   - Check Babble-Spell library for available translations
+
+4. Translation Updates:
+   - Ensure esES variable names match enUS exactly
+   - Remove obsolete variables not present in enUS
+
+================================================================================
+TOOLS CREATED
+================================================================================
+
+fix_buru.py - Python script for automated Buru.lua translation fixes
+Location: E:\TurtleWow\Interface\AddOns\fix_buru.py
+
+Usage:
+python fix_buru.py
+
+This script automatically removes obsolete translation variables from
+Buru.lua to match the English version structure.
+
+================================================================================
+ADDITIONAL DOCUMENTATION
+================================================================================
+
+For more information, see:
+- README.md - Updated with Turtle WoW compatibility section
+- CHANGELOG_TURTLEWOW.md - Detailed changelog in English
+- CREDITOS_ES.md - Detailed changelog in Spanish
+
+================================================================================
+CONTACT
+================================================================================
+
+For questions or issues related to these fixes:
+- In-Game: Elnazzsareno (Turtle WoW)
+- Guild: El Sequito del Terror
+
+================================================================================
+END OF DOCUMENTATION
+================================================================================
