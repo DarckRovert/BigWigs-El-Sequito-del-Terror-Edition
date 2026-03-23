@@ -1,6 +1,6 @@
 # El Ecosistema del Terror - Manual de Inteligencia Colectiva
 
-> **Versión del Documento:** 1.0
+> **Versión del Documento:** 2.0 (Séquito del Terror Edition)
 > **Arquitecto:** DarckRovert / Elnazzareno
 > **Núcleo:** TerrorSquadAI v5.0
 
@@ -17,9 +17,9 @@ Es el comandante central. Toma decisiones, sugiere estrategias, maneja el radar 
 *   **Rol:** Toma de decisiones y visualización (HUD/Radar).
 *   **Comunicaciones:** Recibe datos de todos y emite órdenes.
 
-### 2. Los Ojos: BigWigs + TerrorLink
-BigWigs ya no es solo un avisador de jefes. Con el plugin `TerrorLink`, se convierte en los ojos tácticos de la IA.
-*   **Función:** Detecta habilidades del jefe antes de que ocurran.
+### 2. Los Ojos: BigWigs + TerrorLink (Séquito del Terror Edition v2.0)
+BigWigs ya no es solo un avisador de jefes. Con el plugin `TerrorLink` optimizado y la temática visual oscura, se convierte en los ojos tácticos de la IA.
+*   **Función:** Detecta habilidades del jefe antes de que ocurran, alertando visualmente sin tapar la visión en combate gracias a su nueva interfaz "Dark" translúcida y texturas rojizas (`Otravi`).
 *   **Integración:** Envía temporizadores al Cerebro. Si BigWigs dice "Explosión inminente", TSAI ordena "¡Escudos!".
 
 ### 3. El Sistema Nervioso: TerrorMeter (Threat)

@@ -1,5 +1,21 @@
-# BigWigs TurtleWoW - Edición Elnazzareno
-## Registro de Cambios: Correcciones de Compatibilidad Turtle WoW
+# BigWigs TurtleWoW - Séquito del Terror Edition
+## Registro de Cambios: Actualización Core & Estética (Marzo 2026)
+
+### Nuevas Características y Estética
+- **Branding**: Renombrado globalmente a "Séquito del Terror Edition".
+- **Temática Visual**: Modificada la paleta de colores para usar tonos oscuros (negros 70% opacidad, púrpuras, rojos oscuros).
+- **Textura de Barras**: La textura predeterminada ahora es `Otravi` para un aspecto más lúgubre y rasgado.
+
+### Correcciones Críticas (Cero Errores Lua 5.0)
+- **Fuga de Memoria (Core.lua)**: Refactorizado `IsBossInCombat`. Solucionado un severo bug de 'table pollution' que llenaba repetidamente la tabla `wipemobs`.
+- **Sincronización PvP (Comm.lua)**: Habilitada la sincronización de mensajes para canales de `BATTLEGROUND`, resolviendo el bloqueo de datos en Alterac Valley y Arathi Basin.
+- **Thaddius (Naxxramas)**: Corregida la doble comprobación de `feugenDead` que bloqueaba el inicio de iteraciones en la Fase 2 si Stalagg moría.
+- **Arathi Basin**: Mejorado el sistema de `getFaction` para no dar falsos positivos en los asaltos de bases.
+- **Captain Kromcrush & TerrorLink**: Añadidas comprobaciones integrales (nil-checks) protectoras frente a utilidades externas (KLHTM y TerrorSquadAI) para prevenir crashes. Corregido un "typo" en la función fantasma de comunicación.
+
+---
+
+## Registro de Cambios: Correcciones de Compatibilidad Turtle WoW (V1)
 
 ## Información del Autor
 - **Nombre Real:** DarckRovert

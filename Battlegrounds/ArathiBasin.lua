@@ -79,22 +79,13 @@ if race ~= 'human' and race ~= 'gnome' and race ~= 'dwarf' and race ~= 'nightelf
 end
 
 function getFaction(j)
-
-	for i = 0, GetNumRaidMembers() do
-		if GetRaidRosterInfo(i) then
-			local n = GetRaidRosterInfo(i);
-			if n == j then
-				if faction == 'a' then
-					return 'a'
-				else
-					return 'h'
-				end
-			end
+	for i = 1, GetNumRaidMembers() do
+		local n = GetRaidRosterInfo(i);
+		if n == j then
+			return faction
 		end
 	end
-
-	return 'a'
-
+	return (faction == 'a' and 'h' or 'a')
 end
 
 function bw_ucFirst(a)

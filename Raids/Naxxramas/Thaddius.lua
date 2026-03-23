@@ -355,7 +355,7 @@ function module:CHAT_MSG_COMBAT_HOSTILE_DEATH(msg)
 		stalaggDead = true
 	end
 
-	if feugenDead == true and feugenDead == true then
+	if feugenDead == true and stalaggDead == true then
 		self:Sync(syncName.phase2)
 	end
 end
@@ -363,12 +363,12 @@ end
 function module:CHAT_MSG_MONSTER_YELL(msg)
 	if msg == L["trigger_feugenDeadYell"] then
 		feugenDead = true
-		if feugenDead == true and feugenDead == true then
+		if feugenDead == true and stalaggDead == true then
 			self:Sync(syncName.phase2)
 		end
 	elseif msg == L["trigger_stalaggDeadYell"] then
 		stalaggDead = true
-		if feugenDead == true and feugenDead == true then
+		if feugenDead == true and stalaggDead == true then
 			self:Sync(syncName.phase2)
 		end
 	elseif msg == L["trigger_polarityShiftAfflic"] then

@@ -41,7 +41,7 @@ end
 ------------------------------
 
 function BigWigsComm:CHAT_MSG_ADDON(prefix, message, type, sender)
-	if prefix ~= "BigWigs" or type ~= "RAID" then return end
+	if prefix ~= "BigWigs" or (type ~= "RAID" and type ~= "BATTLEGROUND") then return end
 
 	local _, _, sync, rest = string.find(message, "(%S+)%s*(.*)$")
 	if not sync then return end
@@ -61,8 +61,15 @@ function BigWigsComm:BigWigs_SendSync(msg)
 
 	if throt[sync] == nil then throt[sync] = 1 end
 	if throt[sync] == 0 or not times[sync] or (times[sync] + throt[sync]) <= GetTime() then
-		SendAddonMessage("BigWigs", msg, "RAID")
-		self:CHAT_MSG_ADDON("BigWigs", msg, "RAID", playerName)
+		local type = "RAID"
+		for i = 1, 3 do
+			if GetBattlefieldStatus(i) == "active" then
+				type = "BATTLEGROUND"
+				break
+			end
+		end
+		SendAddonMessage("BigWigs", msg, type)
+		self:CHAT_MSG_ADDON("BigWigs", msg, type, playerName)
 	end
 end
 

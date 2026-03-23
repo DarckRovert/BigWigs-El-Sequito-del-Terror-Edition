@@ -33,7 +33,6 @@ TerrorLink.consoleOptions = {
     desc = L["Enable/Disable TerrorSquadAI link"],
     get = function() return TerrorLink.db.profile.enabled end,
     set = function(v) TerrorLink.db.profile.enabled = v end,
-    set = function(v) TerrorLink.db.profile.enabled = v end,
 }
 
 -- Manual Slash Command Registration
@@ -71,8 +70,8 @@ function TerrorLink:OnEnable()
     end
 end
 
-function TerrorLink:ADDON_LOADED(arg1)
-    if not self.isConnected then
+function TerrorLink:ADDON_LOADED(addon)
+    if addon == "TerrorSquadAI" then
         self:CheckConnection()
     end
 end

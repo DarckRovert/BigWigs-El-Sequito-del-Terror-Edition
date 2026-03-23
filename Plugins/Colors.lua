@@ -310,16 +310,18 @@ BigWigsColors.defaultDB = {
 	important = "ff0000", -- Red
 	personal = "ff0000", -- Red
 	purple = "660099", -- Purple
-	urgent = "ff7f00", -- Orange
-	attention = "ffff00", -- Yellow
-	positive = "00ff00", -- Green
-	bosskill = "00ff00", -- Green
-	core = "00ffff", -- Cyan
+	urgent = "ff3300", -- Dark Orange/Red
+	attention = "ffcc00", -- Triumphant Gold
+	positive = "33cc33", -- Sickly Green
+	bosskill = "ffcc00", -- Triumphant Gold
+	core = "cc0000", -- Blood Red
 
-	shortbar = {"ffff00", "ff7f00", "ff0000"},
+	shortbar = {"660099", "800000", "ff0000"},
 	shortnr = 3,
-	longbar = {"00ff00", "ffff00", "ff7f00", "ff0000"},
+	longbar = {"333333", "660099", "800000", "ff0000"},
 	longnr = 4,
+	bgc = "000000",
+	bga = 0.7,
 }
 BigWigsColors.consoleCmd = L["Colors"]
 BigWigsColors.consoleOptions = {

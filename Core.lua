@@ -630,37 +630,35 @@ function BigWigs:CheckForEngage(module)
 			if not t then
 				return false
 			end
-			if type(t) == "string" then
-				t = { t }
-			end
-			if a then
-				if type(a) == "string" then
-					a = { a }
+			local function check(mob)
+				if type(t) == "string" then
+					if mob == t then return true end
+				else
+					for _, v in pairs(t) do
+						if mob == v then return true end
+					end
 				end
-				for k, v in pairs(a) do
-					table.insert(t, v)
+				if a then
+					if type(a) == "string" then
+						if mob == a then return true end
+					else
+						for _, v in pairs(a) do
+							if mob == v then return true end
+						end
+					end
 				end
+				return false
 			end
 
 			if UnitExists("target") and UnitAffectingCombat("target") then
-				local target = UnitName("target")
-				for _, mob in pairs(t) do
-					if target == mob then
-						return true
-					end
-				end
+				if check(UnitName("target")) then return true end
 			end
 
 			local num = GetNumRaidMembers()
 			for i = 1, num do
 				local raidUnit = string.format("raid%starget", i)
 				if UnitExists(raidUnit) and UnitAffectingCombat(raidUnit) then
-					local target = UnitName(raidUnit)
-					for _, mob in pairs(t) do
-						if target == mob then
-							return true
-						end
-					end
+					if check(UnitName(raidUnit)) then return true end
 				end
 			end
 			return false

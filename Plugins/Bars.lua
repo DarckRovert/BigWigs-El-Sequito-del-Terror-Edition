@@ -172,7 +172,7 @@ BigWigsBars.revision = tonumber(string.sub("$Revision: 20004 $", 12, -3))
 BigWigsBars.defaultDB = {
 	growup = false,
 	scale = 1.0,
-	texture = "BantoBar",
+	texture = "Otravi",
 	posx = nil,
 	posy = nil,
 	emphasize = true,
@@ -422,7 +422,7 @@ end
 
 function BigWigsBars:OnEnable()
 	if not surface:Fetch(self.db.profile.texture) then
-		self.db.profile.texture = "BantoBar"
+		self.db.profile.texture = "Otravi"
 	end
 	self.frames = {}
 	self:SetupFrames()

@@ -85,6 +85,7 @@ function module:OnEngage()
 		self:Sound("Beware")
 	end
 	self:Bar(L["fearBar"], timer.fear, icon.fear, true, "white")
+	if (not klhtm) or (not klhtm.net) then return end
 	if UnitName("target") == "Captain Kromcrush" and (IsRaidLeader() or IsRaidOfficer()) then
 		klhtm.net.sendmessage("target " .. "Captain Kromcrush")
 	end
@@ -148,5 +149,5 @@ function module:RetaliationDown()
 end
 
 function module:RetaliationHurt()
-	self:SendSay(L["retaliationHurtMessage"])
+	SendChatMessage(L["retaliationHurtMessage"], "SAY")
 end

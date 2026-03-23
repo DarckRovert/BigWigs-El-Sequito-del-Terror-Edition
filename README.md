@@ -1,12 +1,14 @@
-# BigWigs (Edición El Séquito del Terror)
+# BigWigs (Séquito del Terror Edition v2.0)
+
 
 BigWigs es un addon modular de "Boss Mods" diseñado para predecir y alertar sobre habilidades de jefes en bandas y mazmorras. Esta versión ha sido modificada específicamente para integrarse con el ecosistema de **TerrorSquadAI**.
 
 ## 🚀 Características Principales
 
 *   **Timers Precisos**: Barras de tiempo para habilidades de jefes (Maldiciones, AoEs, Fases).
+*   **Estilo "Terror"**: Interfaz visual rediseñada con tonos oscuros, texturas rasgadas (Otravi) y alertas en rojo sangre.
 *   **Alertas Visuales y Sonoras**: Avisos claros cuando debes moverte, interrumpir o usar defensivos.
-*   **Soporte Turtle WoW**: Ajustado para funcionar correctamente con los scripts y eventos específicos de Turtle WoW.
+*   **Cero Fugas de Memoria**: Lógica reescrita para evitar la "contaminación de tablas" (table pollution) en bandas y optimizado para Turtle WoW (Lua 5.0).
 *   **Integración TerrorLink**: Envía datos en tiempo real a TerrorSquadAI para coordinar estrategias de grupo.
 
 ## 🛠️ Instalación y Configuración

@@ -138,14 +138,17 @@ Si Turtle WoW añade más contenido personalizado, pueden necesitarse correccion
 
 ---
 
-## Créditos
+## Créditos y Versiones
 
-**Todas las correcciones implementadas por:**
+### Actualización V2.0 "Séquito del Terror Edition" (Marzo 2026)
+- **Implementación y Auditoría**: Asistente de Inteligencia Artificial (Bajo estricta supervisión de DarckRovert).
+- **Alcance**: Mejoras completas de renderizado Visual/Theme (UI), parche de fuga de memoria core ("Table Pollution"), y arreglos críticos de lógica Zero-Errors en Thaddius (Naxx), Kromcrush (DM), y la sincronización de comunicaciones en PvP.
+
+### Actualización V1.0 (Enero 2026)
+**Todas las correcciones iniciales implementadas por:**
 - **DarckRovert** (Nombre Real)
 - **Elnazzsareno** (Personaje en el Juego)
 - **El Sequito del Terror** (Clan)
-
-**Fecha:** 8 de Enero de 2026
 
 ---
 
