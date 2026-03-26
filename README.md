@@ -1,4 +1,4 @@
-# BigWigs (Séquito del Terror Edition v2.0)
+# BigWigs (Séquito del Terror Edition v9.3.0) [God-Tier]
 
 
 BigWigs es un addon modular de "Boss Mods" diseñado para predecir y alertar sobre habilidades de jefes en bandas y mazmorras. Esta versión ha sido modificada específicamente para integrarse con el ecosistema de **TerrorSquadAI**.
