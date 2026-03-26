@@ -35,6 +35,9 @@ Esta versión incluye el plugin **TerrorLink (`TerrorLink.lua`)**.
 *   **Resultado**: `TerrorSquadAI` puede sugerirte "¡Usa Poción de Protección al Fuego!" o alertar al HUD Táctico.
 *   **Estado**: Puedes verificar la conexión con `/terrorlink`.
 
+### 🌐 Séquito Ecosystem Compatible (The Eyes)
+Como los **Ojos** del clan, BigWigs proporciona la telemetría de jefes necesaria para que `TerrorSquadAI` y `WCS_Brain` tomen decisiones tácticas en tiempo real durante la raid.
+
 ## 📋 Comandos Disponibles
 
 *   `/bw` - Abre la configuración principal.
