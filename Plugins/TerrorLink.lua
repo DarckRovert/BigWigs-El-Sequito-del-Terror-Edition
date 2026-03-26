@@ -2,7 +2,7 @@
     TerrorLink: Official BigWigs Plugin for TerrorSquadAI
     Connects BigWigs boss data directly to TerrorSquadAI's decision engine.
     Author: DarckRovert / Elnazzareno
-    Version: 1.1 - Added Robust Connection Logic
+    Version: 9.3.0 [God-Tier]
 ]]
 
 local name = "TerrorLink"
@@ -18,12 +18,16 @@ L:RegisterTranslations("enUS", function() return {
     ["TerrorLink"] = true,
     ["Integration with TerrorSquadAI"] = true,
     ["Enable/Disable TerrorSquadAI link"] = true,
+    ["TerrorLink connected to TerrorSquadAI."] = true,
+    ["TerrorSquadAI not found. Retrying..."] = true,
 } end)
 
 L:RegisterTranslations("esES", function() return {
     ["TerrorLink"] = "TerrorLink",
-    ["Integration with TerrorSquadAI"] = "Integración con TerrorSquadAI",
+    ["Integration with TerrorSquadAI"] = "Integracion con TerrorSquadAI",
     ["Enable/Disable TerrorSquadAI link"] = "Activar/Desactivar enlace con TerrorSquadAI",
+    ["TerrorLink connected to TerrorSquadAI."] = "TerrorLink conectado con TerrorSquadAI.",
+    ["TerrorSquadAI not found. Retrying..."] = "TerrorSquadAI no encontrado. Reintentando...",
 } end)
 
 TerrorLink.consoleCmd = "terrorlink"
