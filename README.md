@@ -35,8 +35,21 @@ Esta versión incluye el plugin **TerrorLink (`TerrorLink.lua`)**.
 *   **Resultado**: `TerrorSquadAI` puede sugerirte "¡Usa Poción de Protección al Fuego!" o alertar al HUD Táctico.
 *   **Estado**: Puedes verificar la conexión con `/terrorlink`.
 
-### 🌐 Séquito Ecosystem Compatible (The Eyes)
-Como los **Ojos** del clan, BigWigs proporciona la telemetría de jefes necesaria para que `TerrorSquadAI` y `WCS_Brain` tomen decisiones tácticas en tiempo real durante la raid.
+### 🌐 Séquito Ecosystem Compatible (The Eyes of SquadMind)
+Como los **Ojos** del clan, BigWigs proporciona la telemetría fundamental para la detección predictiva:
+
+```mermaid
+graph TD
+    classDef combat fill:#4B0082,stroke:#9370DB,stroke-width:2px,color:#fff;
+    classDef core fill:#2C0000,stroke:#FF0000,stroke-width:2px,color:#fff;
+    BW["👁️ BigWigs + TerrorLink<br/>(Detección Jefes)"]:::combat
+    TSAI["🧠 TerrorSquadAI<br/>(Comandante Táctico)"]:::core
+    WCS["🔮 WCS_Brain<br/>(Vínculo Maestro)"]:::core
+    
+    BW ==>|Temporizadores Inminentes| TSAI
+    TSAI -.->|Reacción Defensiva Automática| WCS
+```
+Cuando un jefe castea, la información viaja en microsegundos para que `TerrorSquadAI` trace la estrategia a seguir y alerte a `WCS_Brain` para utilizar pociones de protección o pre-castear curas.
 
 ## 📋 Comandos Disponibles
 

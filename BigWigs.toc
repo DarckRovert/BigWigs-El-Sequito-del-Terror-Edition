@@ -10,7 +10,7 @@
 ## Notes-zhTW: 團隊首領戰訊息提示插件，帶有計時條。
 ## Author: Relar, Balake, Pepopo, Bethy, Tekkub Stoutwrithe, Ammo, Shyva, Rabbit, LYQ, Dorann, Hosq & Others
 ## X-TurtleWoW-Fixes: DarckRovert (Elnazzareno - El Sequito del Terror) - January 2026
-## Version: 9.3.0
+## Version: 9.3.0 [God-Tier]
 ## X-Website: https://github.com/pepopo978/BigWigs/
 ## X-Category: Raid
 ## X-RelSite-WoWI: 5086
