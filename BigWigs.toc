@@ -1,4 +1,4 @@
-﻿## Interface: 11200
+## Interface: 11200
 
 ## X-Revision: 30132
 ## X-Fork: Pepo
@@ -8,7 +8,7 @@
 ## Notes-esES: Módulos para Jefes con barras temporizadoras. [Correcciones Turtle WoW por DarckRovert]
 ## Notes-zhCN: å›¢é˜Ÿé¦–é¢†æˆ˜ä¿¡æ¯æç¤ºæ’ä»¶ï¼Œå¸¦æœ‰è®¡æ—¶æ¡ã€‚
 ## Notes-zhTW: åœ˜éšŠé¦–é ˜æˆ°è¨Šæ¯æç¤ºæ’ä»¶ï¼Œå¸¶æœ‰è¨ˆæ™‚æ¢ã€‚
-## Author: Relar, Balake, Pepopo, Bethy, Tekkub Stoutwrithe, Ammo, Shyva, Rabbit, LYQ, Dorann, Hosq & Others
+## Author: El Séquito del Terror
 ## X-TurtleWoW-Fixes: DarckRovert (Elnazzareno - El Sequito del Terror) - January 2026
 ## Version: 9.3.0 [God-Tier]
 ## X-Website: https://github.com/pepopo978/BigWigs/
