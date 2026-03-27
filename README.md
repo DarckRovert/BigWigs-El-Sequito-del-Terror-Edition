@@ -60,3 +60,15 @@ Cuando un jefe castea, la informaci√≥n viaja en microsegundos para que `TerrorSq
 ---
 *Modificado por DarckRovert para El S√©quito del Terror.*
 *Para detalles t√©cnicos de la integraci√≥n, ver `ECOSYSTEM.md`.*
+
+---
+
+## ?? Comunidad y Gobernanza
+
+Este proyecto es parte del ecosistema **El SÈquito del Terror**. Nos comprometemos a mantener un ambiente sano y profesional:
+
+- ?? **[CÛdigo de Conducta](./CODE_OF_CONDUCT.md)**: Nuestras normas de convivencia.
+- ?? **[GuÌa de ContribuciÛn](./CONTRIBUTING.md)**: CÛmo ayudar a expandir este addon.
+- ??? **[Licencia](./LICENSE)**: Este proyecto est· bajo la Licencia MIT.
+
+---
