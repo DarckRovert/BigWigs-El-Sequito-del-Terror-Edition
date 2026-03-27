@@ -1,42 +1,36 @@
-# BigWigs — Guía TerrorLink (Séquito del Terror)
+# Guía de Configuración del Séquito — BigWigs
 
-## ¿Qué es TerrorLink?
+## Configuración de Alertas Recomendada
 
-`Plugins/TerrorLink.lua` es el puente oficial entre BigWigs y TerrorSquadAI. Captura datos de bosses en tiempo real y los envía al motor de decisión de la IA táctica del Séquito.
+### Molten Core
 
-## Cómo Funciona
+| Boss | Habilidad Crítica | Acción Recomendada |
+|---|---|---|
+| Lucifron | Maldición de Lucifron | Decursar INMEDIATAMENTE |
+| Magmadar | Pánico | Todos alejarse 15 metros |
+| Gehennas | Lluvia de Fuego | Moverse del radio |
+| Garr | Separarse | Kite de adds a los bordes |
+| Baron Geddon | Living Bomb | El afectado sale al borde |
+| Golemagg | Phase 2 | Cambio de estrategia de tank |
+| Sulfuron | Healer Down | Prioridad en eliminar healers |
+| Majordomo | Flame Elemental | DPS a los elementales |
+| Ragnaros | Wrath of Ragnaros | Todos en tierra, no saltar |
 
-```
-BigWigs                     TerrorLink                  TerrorSquadAI
-   |                            |                            |
-   |-- BigWigs_Message -------->|                            |
-   |-- BigWigs_StartBar ------->|--- ReceiveExternalData --->|
-   |-- BigWigs_StopBar -------->|                            |
-   |-- BigWigs_BossDeath ------>|                            |
-```
+### Blackwing Lair
 
-### Eventos capturados
+| Boss | Habilidad Crítica | Acción Recomendada |
+|---|---|---|
+| Razorgore | Phase 2 | Transición de roles |
+| Vaelastrasz | Burning Adrenaline | Afectado sale del grupo |
+| Nefarian | Warlock Call | Warlocks saltan |
 
-| Evento BigWigs | Tipo de dato enviado a TerrorSquadAI |
-|---|---|
-| `BigWigs_Message` (Urgent/Important) | `{type="message", priority="critical"}` |
-| `BigWigs_StartBar` | `{type="timer_start", text, duration}` |
-| `BigWigs_StopBar` | `{type="timer_stop", text}` |
-| `BigWigs_BossDeath` | `{type="boss_death"}` |
+## Configuración Visual Recomendada
 
-## Comandos
+- **Tamaño de barra**: Grande (más visible en combate)
+- **Posición**: Centro superior de la pantalla
+- **Escala**: 1.2 para mejor legibilidad
+- **Sonido**: Activado, volumen 80%
 
-```
-/terrorlink    — Toggle activar/desactivar TerrorLink
-```
+## Integración con WCS_Brain
 
-## Estado de Conexión
-
-TerrorLink intenta conectarse automáticamente al cargar. Si TerrorSquadAI no está disponible al inicio, se registra en `ADDON_LOADED` y reintenta cuando TerrorSquadAI termine de cargar.
-
-## Diagnóstico
-
-Si TerrorLink no conecta:
-1. Verificar que TerrorSquadAI está activado en el gestor de addons
-2. Verificar que `TerrorSquadAI.Modules.BigWigsIntegration` existe (requiere módulo `BigWigsIntegration.lua`)
-3. Usar `/tsai debug on` para ver mensajes de debug de TerrorSquadAI
+En Turtle WoW, los timers de BigWigs pueden ser leídos por WCS_Brain para ajustar automáticamente el modo de IA de mascotas antes de habilidades peligrosas.
