@@ -2,15 +2,15 @@
 
 ## X-Revision: 30132
 ## X-Fork: Pepo
-## Title: BigWigs - |cffcc0000Séquito del Terror Edition|r
-## Title-zhCN: BigWigs - |cffcc0000Séquito del Terror Edition|r
+## Title: |cffffffffBigWigs |r|cff00ccff[Séquito del Terror]|r
+## Title-zhCN: |cffffffffBigWigs |r|cff00ccff[Séquito del Terror]|r
 ## Notes: Boss Mods with Timer bars.
 ## Notes-esES: Módulos para Jefes con barras temporizadoras. [Correcciones Turtle WoW por DarckRovert]
 ## Notes-zhCN: å›¢é˜Ÿé¦–é¢†æˆ˜ä¿¡æ¯æç¤ºæ’ä»¶ï¼Œå¸¦æœ‰è®¡æ—¶æ¡ã€‚
 ## Notes-zhTW: åœ˜éšŠé¦–é ˜æˆ°è¨Šæ¯æç¤ºæ’ä»¶ï¼Œå¸¶æœ‰è¨ˆæ™‚æ¢ã€‚
 ## Author: El Séquito del Terror
 ## X-TurtleWoW-Fixes: DarckRovert (Elnazzareno - El Sequito del Terror) - January 2026
-## Version: 9.3.0 [God-Tier]
+## Version: 9.3.1 [God-Tier]
 ## X-Website: https://github.com/pepopo978/BigWigs/
 ## X-Category: Raid
 ## X-RelSite-WoWI: 5086
