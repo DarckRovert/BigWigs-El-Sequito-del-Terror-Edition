@@ -1,52 +1,44 @@
-# BigWigs [Séquito del Terror Edition] — v9.3.0 [God-Tier] 🔔⚔️
+# BigWigs — El Séquito del Terror Edition ⚔️🔉
 
-> **Alertas premonitorias de raid para Turtle WoW.** Conoce la mecánica del boss antes de que ocurra.
+> **Boss mods for Turtle WoW.** Una versión personalizada con alertas de voz en español y perfiles tácticos para **El Séquito del Terror**.
 
-[![Licencia: MIT](https://img.shields.io/badge/licencia-MIT-blue.svg)](./LICENSE)
-[![Versión](https://img.shields.io/badge/version-9.3.0--God--Tier-orange)](./CHANGELOG_TURTLEWOW.md)
-
----
-
-## 🔔 ¿Qué es BigWigs?
-
-BigWigs es el addon de alertas de raid líder para WoW Vanilla. Muestra temporizadores de habilidades de jefes de mazmorra y banda, alertas visuales y sonoras, y sincronización con otros jugadores del raid que también tengan BigWigs activo.
-
-**Contenido de Turtle WoW:** Esta versión incluye módulos actualizados para el contenido personalizado del servidor.
-
-## 🚀 Características
-
-| Función | Descripción |
-|---|---|
-| **Boss Timers** | Temporizadores de habilidades de jefes (Molten Core, BWL, AQ, Naxx) |
-| **Turtle WoW** | Módulos para bosses exclusivos del servidor |
-| **Sync** | Sincronización de timers con tu raid (requiere BigWigs en todos) |
-| **Alertas** | Avisos sonoros y visuales configurables por habilidad |
-| **Barra de Progreso** | Barras visuales contando el tiempo hasta la siguiente habilidad |
-| **Séquito Style** | Integración visual con pfUI |
-
-## ⚙️ Instalación
-
-1. Extrae en Interface\AddOns\BigWigs\.
-2. Activa el addon.
-3. BigWigs se activa automáticamente al entrar a una mazmorra soportada.
-
-## 📋 Changelog de Turtle WoW
-
-Ver [CHANGELOG_TURTLEWOW.md](./CHANGELOG_TURTLEWOW.md) para los módulos de boss de Turtle WoW.
-
-## 🏆 Créditos en Español
-
-Ver [CREDITOS_ES.md](./CREDITOS_ES.md) para contribuidores.
-
-## 📖 Guía del Séquito
-
-Ver [SEQUITO_GUIDE.md](./SEQUITO_GUIDE.md) para la configuración recomendada del clan.
-
-## 🕸️ Gobernanza
-
-- ⚖️ [Licencia MIT](./LICENSE)
-- �� [Código de Conducta](./CODE_OF_CONDUCT.md)
-- 🛠️ [Guía de Contribución](./CONTRIBUTING.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![Version](https://img.shields.io/badge/version-Sequito--Edition-red)](./CHANGELOG.md)
+[![World of Warcraft](https://img.shields.io/badge/WoW-1.12.1-orange)](https://turtle-wow.org)
 
 ---
-© 2024 **DarckRovert (Elnazzareno)** — El Séquito del Terror
+
+## 🔉 ¿Qué incluye esta edición?
+
+BigWigs Sequito Edition es el estándar de oro para el raideo en Turtle WoW, mejorado con:
+
+- **Voces en Español**: Alertas críticas narradas para mecánicas de raid (Naxxramas, AQ40, BWL).
+- **Integración WCS_Brain**: Sincronización de timers con el HUD táctico central.
+- **Perfiles de Warlock**: Alertas específicas de maldiciones, demonios y drenaje de vida.
+- **Visuales God-Tier**: Barras con texturas personalizadas y tipografía de alta visibilidad.
+
+## 🚀 Instalación & Uso
+
+1.  Extrae en `Interface\AddOns\BigWigs\`.
+2.  Al entrar al juego, usa `/bw` para abrir el menú de configuración.
+3.  Selecciona el perfil **"El Séquito"** para cargar los timers y voces oficiales.
+
+## 🏗️ Suite de Documentación (Wiki)
+
+Domina cada encuentro:
+
+- 📐 **[Arquitectura](./wiki/Architecture.md)**: Cómo BigWigs maneja los timers y eventos.
+- 🛠️ **[Guía de API](./wiki/API_Guide.md)**: Hooks para registrar eventos externos.
+- ❓ **[FAQ](./wiki/FAQ.md)**: Solución de problemas de sincronización de timers.
+- 📖 **[Manual de Usuario](./wiki/User_Manual.md)**: Guía detallada de configuración de barras.
+
+## 🔗 Ecosistema Integrado
+
+Esta versión de BigWigs es esencial junto a:
+- [WCS_Brain](file:///e:/Turtle%20Wow/Interface/AddOns/WCS_Brain)
+- [TerrorMeter](file:///e:/Turtle%20Wow/Interface/AddOns/TerrorMeter)
+- [pfUI (Sequito Edition)](file:///e:/Turtle%20Wow/Interface/AddOns/pfUI)
+
+---
+© 2026 **DarckRovert (Elnazzareno)** — El Séquito del Terror.
+*Sincronizado con el Reloj de Servidor de Turtle WoW.*

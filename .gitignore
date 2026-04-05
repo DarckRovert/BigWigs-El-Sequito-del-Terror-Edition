@@ -1,0 +1,12 @@
+# BigWigs Sequito GitIgnore
+*.toc.bak
+*.lua.bak
+*.xml.bak
+*.DS_Store
+*.swp
+*.tmp
+*~
+LAST_DEPLOY.txt
+Sounds/*.wav.bak
+Textures/*.tga.bak
+.vscode/

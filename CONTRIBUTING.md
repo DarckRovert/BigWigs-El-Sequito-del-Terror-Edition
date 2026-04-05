@@ -1,14 +1,13 @@
-# Contribuyendo a El Séquito del Terror
+# Contributing to BigWigs (El Séquito Edition)
 
-¡Gracias por tu interés en potenciar nuestro arsenal!
+Este es un fork especializado para el raideo en Turtle WoW.
 
-## Cómo contribuir
-1. Haz un fork del repositorio.
-2. Crea una rama para tu mejora (git checkout -b feature/mejora).
-3. Envía tus cambios vía Pull Request.
+## Reglas Técnicas
+1. **Sync Protocol**: No modificar el protocolo de sincronización sin consultar el bridge del WCS_Brain.
+2. **Standard Lua 5.0**: Prohibido usar operadores de longitud `#` o `math.huge`.
 
-## Estándares
-- Compatibilidad total con **Turtle WoW (Lua 5.0)**.
-- Documentación clara en los commits.
+## Desarrollo de Módulos
+Los nuevos encuentros deben ser añadidos en la carpeta `Raids/`.
 
-Lee nuestro [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) antes de empezar.
+---
+© 2026 **DarckRovert**.
