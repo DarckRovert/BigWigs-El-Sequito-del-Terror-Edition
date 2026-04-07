@@ -1,39 +1,40 @@
-# Changelog — Advanced Boss Mods (BigWigs) 📈⚔️
+﻿# Changelog â€” Advanced Boss Mods (BigWigs) ðŸ“ˆâš”ï¸
 
-Todos los cambios notables en este proyecto serán documentados en este archivo siguiendo el estándar **Diamond Tier** de **DarckRovert**.
+Todos los cambios notables en este proyecto serÃ¡n documentados en este archivo siguiendo el estÃ¡ndar **Diamond Tier** de **DarckRovert**.
 
 ---
 
-## [v2.0.0] — 2026-04-07 [Boss-Tier]
+## [v2.0.0] â€” 2026-04-07 [Boss-Tier]
 
-### 🏛️ Raid Encounter Sync (Mejoras)
-- **Turtle WoW Custom Bosses**: Módulos actualizados para Karazhan Upper/Lower, Emerald Sanctum y Black Morass.
-- **Neural Timebars**: Algoritmo de renderizado de barras con sincronización de red de alta fidelidad para el Séquito.
+### ðŸ›ï¸ Raid Encounter Sync (Mejoras)
+- **Turtle WoW Custom Bosses**: MÃ³dulos actualizados para Karazhan Upper/Lower, Emerald Sanctum y Black Morass.
+- **Neural Timebars**: Algoritmo de renderizado de barras con sincronizaciÃ³n de red de alta fidelidad para el SÃ©quito.
 - **Apex Skin Integration**: Las barras de BigWigs ahora usan los colores corporativos y fuentes del ecosistema pfUI.
-- **TerrorLink Engine**: Notificaciones asíncronas entre BigWigs y **TerrorSquadAI** para coordinar marcas en tiempo real.
+- **TerrorLink Engine**: Notificaciones asÃ­ncronas entre BigWigs y **TerrorSquadAI** para coordinar marcas en tiempo real.
 
-### ⚡ Core & Branding
-- **Rebranding [Omni-Tier]**: Elevación global de la versión y URLs a `ko-fi.com/darckrovert`.
-- **Latency Optimization**: Reducción drástica del overhead en encuentros de 40 jugadores mediante el uso de `ChatThrottleLib` optimizado.
+### âš¡ Core & Branding
+- **Rebranding [Boss-Tier]**: ElevaciÃ³n global de la versiÃ³n y URLs a `ko-fi.com/darckrovert`.
+- **Latency Optimization**: ReducciÃ³n drÃ¡stica del overhead en encuentros de 40 jugadores mediante el uso de `ChatThrottleLib` optimizado.
 
 ---
 
-## 📊 Matriz de Versiones Mayores
+## ðŸ“Š Matriz de Versiones Mayores
 
-| Versión | Fecha | Nombre Clave | Estado | Resumen |
+| VersiÃ³n | Fecha | Nombre Clave | Estado | Resumen |
 | :--- | :--- | :--- | :---: | :--- |
-| **2.0.0** | 2026-04-07 | **Boss-Tier** | ✅ | Orquestación táctica v2.0.0. |
-| **9.3.1** | 2026-01-10 | **God-Tier** | ⚠️ | Versión inicial de corrección para Turtle. |
-| **9.2.0** | 2025-11-05 | **Raid-Fix** | ❌ | Mejoras en las barras de temporización. |
+| **2.0.0** | 2026-04-07 | **Boss-Tier** | âœ… | OrquestaciÃ³n tÃ¡ctica v2.0.0. |
+| **9.3.1** | 2026-01-10 | **God-Tier** | âš ï¸ | VersiÃ³n inicial de correcciÃ³n para Turtle. |
+| **9.2.0** | 2025-11-05 | **Raid-Fix** | âŒ | Mejoras en las barras de temporizaciÃ³n. |
 
 ---
 
-## [v9.3.1] — 2026-01-10
+## [v9.3.1] â€” 2026-01-10
 
-### ✨ Características
-- **Turtle Fixes**: Primera tanda de módulos para las nuevas mazmorras de Turtle WoW.
-- **CandyBar Setup**: Configuración visual simplificada para el clan.
+### âœ¨ CaracterÃ­sticas
+- **Turtle Fixes**: Primera tanda de mÃ³dulos para las nuevas mazmorras de Turtle WoW.
+- **CandyBar Setup**: ConfiguraciÃ³n visual simplificada para el clan.
 
 ---
-© 2026 **DarckRovert** — El Séquito del Terror.
-*Sincronización táctica para la conquista de Azeroth.*
+Â© 2026 **DarckRovert** â€” El SÃ©quito del Terror.
+*SincronizaciÃ³n tÃ¡ctica para la conquista de Azeroth.*
+
