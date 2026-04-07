@@ -1,15 +1,30 @@
-# Visual Studio Code
-.vscode/
-*.code-workspace
+# BigWigs [Advanced Boss Mods] — gitignore 🛠️⏱️
 
-# Temporary & Local files
+# WoW Excluidos
 *.bak
-*.cache
+*.old
+*.tmp
 *.log
-deploy_log.txt
-LAST_DEPLOY.txt
 
-# Gravity AI 
-.system_generated/
-_knowledge.json
-bridge_log_tail.txt
+# Workspace & OS
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Database & SavedVariables
+BigWigsDB.lua
+BigWigsFubarDB.lua
+BigWigsCommonAurasDB.lua
+BigWigsZombieFoodDB.lua
+BigWigsRespawnTimersDB.lua
+*.lua.compiled
+*.luac
+
+# Archivos de Desarrollo Local
+!README.md
+!CHANGELOG.md
+!LICENSE
+!CONTRIBUTING.md
+!CODE_OF_CONDUCT.md
+!SECURITY.md
+!wiki/

@@ -1,33 +1,15 @@
 ## Interface: 11200
-
-## X-Revision: 30132
-## X-Fork: Pepo
 ## Title: |cffffffffBigWigs |r|cff00ccff[Séquito del Terror]|r
-## Title-zhCN: |cffffffffBigWigs |r|cff00ccff[Séquito del Terror]|r
-## Notes: Boss Mods with Timer bars.
-## Notes-esES: Módulos para Jefes con barras temporizadoras. [Correcciones Turtle WoW por DarckRovert]
-## Notes-zhCN: å›¢é˜Ÿé¦–é¢†æˆ˜ä¿¡æ¯æç¤ºæ’ä»¶ï¼Œå¸¦æœ‰è®¡æ—¶æ¡ã€‚
-## Notes-zhTW: åœ˜éšŠé¦–é ˜æˆ°è¨Šæ¯æç¤ºæ’ä»¶ï¼Œå¸¶æœ‰è¨ˆæ™‚æ¢ã€‚
-## Author: El Séquito del Terror
-## X-TurtleWoW-Fixes: DarckRovert (Elnazzareno - El Sequito del Terror) - January 2026
-## Version: 9.3.1 [God-Tier]
-## X-Website: https://github.com/pepopo978/BigWigs/
-## X-Category: Raid
-## X-RelSite-WoWI: 5086
-## X-RelSite-Curse: 4356
-## X-AceForum: 1222
-## X-FlySpray: 1
-
-## OptionalDeps: Ace2, FuBar, FuBarPlugin-2.0, Babble-2.2, CandyBar, CompostLib, DewdropLib, PaintChipsLib, TabletLib, SurfaceLib, Surfaces, MikScrollingBattleText, sct, SpellStatusLib, SpellCacheLib, GratuityLib, Deformat, SpecialEventsEmbed, RosterLib
-## X-Embeds: Ace2, FuBarPlugin-2.0, Babble-2.2, CandyBar, CompostLib, DewdropLib, PaintChipsLib, TabletLib, SurfaceLib
-
+## Version: 9.4.0 [Omni-Tier]
+## Notes: Boss Mods with Timer bars. Optimized for Turtle WoW raids and Karazhan.
+## Author: El Séquito del Terror (DarckRovert)
+## X-TurtleWoW-Fixes: DarckRovert (Elnazzareno - El Sequito del Terror) - 2026
 ## SavedVariables: BigWigsDB, BigWigsFubarDB, BigWigsCommonAurasDB, BigWigsZombieFoodDB, BigWigsRespawnTimersDB, BigWigsContributeFlag
 ## SavedVariablesPerCharacter: BigWigsDBPerChar, BigWigsBarClick
+## OptionalDeps: Ace2, FuBar, FuBarPlugin-2.0, Babble-2.2, CandyBar, CompostLib, DewdropLib, PaintChipsLib, TabletLib, SurfaceLib, Surfaces, MikScrollingBattleText, sct, SpellStatusLib, SpellCacheLib, GratuityLib, Deformat, SpecialEventsEmbed, RosterLib
 
 Libs\AceLibrary\AceLibrary.lua
-
 Libs\Compost-2.0\Compost-2.0.lua
-
 Libs\AceOO-2.0\AceOO-2.0.lua
 Libs\AceAddon-2.0\AceAddon-2.0.lua
 Libs\AceConsole-2.0\AceConsole-2.0.lua
@@ -189,7 +171,7 @@ Raids\Naxxramas\Gluth.lua
 Raids\Naxxramas\Razuvious.lua
 Raids\Naxxramas\Noth.lua
 Raids\Naxxramas\Faerlina.lua
-Raids\Naxxramas\Maexxna.lua
+Raids\Naxxramas\ Maexxna.lua
 Raids\Naxxramas\Patchwerk.lua
 Raids\Naxxramas\Grobbulus.lua
 Raids\Naxxramas\Thaddius.lua

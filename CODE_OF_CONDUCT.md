@@ -1,10 +1,20 @@
-# Contributor Covenant Code of Conduct
+# Code of Conduct — Advanced Boss Mods (BigWigs) 🛡️⚔️
 
-Como miembros de **El Séquito del Terror**, nos comprometemos a mantener un ambiente de raideo profesional y respetuoso en todo momento.
+Como miembros de **El Séquito del Terror** y colaboradores de **DarckRovert**, nos comprometemos a mantener una orquestación de banda técnica y profesional.
 
-## Compromiso
-- Cero tolerancia a la toxicidad en guilds
-- Respeto a las estrategias de raid
-- Enfoque en la eficiencia y mejora continua
+## ⚖️ Nuestra Conducta
+- **Rigor Táctico**: Cada temporizador de boss debe ser preciso y estar verificado en encuentros reales de Turtle WoW.
+- **Transparencia**: Todo cambio en los módulos de raid o alertas debe ser documentado en `CHANGELOG.md`.
+- **Excelencia**: Priorizamos la supervivencia del grupo sobre cualquier automatización visual secundaria.
 
-Referencia: [CODE_OF_CONDUCT.md en el root del ecosistema].
+## 🚫 Comportamientos Inaceptables
+- Introducir alertas falsas o temporizadores erróneos para sabotear encuentros de banda.
+- Eludir la sincronización asíncrona de alertas de clan.
+- Alterar la identidad institucional del Séquito.
+
+## 🛑 Reportes
+Cualquier incidente debe reportarse directamente vía **Twitch** o **Discord** de **DarckRovert**.
+
+---
+© 2026 **DarckRovert** — El Séquito del Terror.
+*Sincronización táctica para la conquista de Azeroth.*
