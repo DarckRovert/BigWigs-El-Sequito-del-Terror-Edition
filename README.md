@@ -1,9 +1,9 @@
-# BigWigs — Advanced Boss Mods (v9.4.0 [Omni-Tier]) ⚔️⏱️
+# BigWigs — Advanced Boss Mods (v2.0.0 [Boss-Tier]) 🏛️⚔️⏱️
 
 > **The definitive raid encounter manager for Turtle WoW.** Optimizado para el clan **El Séquito del Terror** con soporte completo para mazmorras personalizadas (Karazhan, Emerald Sanctum, Black Morass) bajo la supervisión técnica de **DarckRovert**.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![Version](https://img.shields.io/badge/version-v9.4.0--Omni--Tier-blue)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-v2.0.0--Boss--Tier-red)](./CHANGELOG.md)
 [![World of Warcraft](https://img.shields.io/badge/WoW-1.12.1--Turtle-orange)](https://turtle-wow.org)
 [![Support](https://img.shields.io/badge/Support-Ko--fi-blue)](https://ko-fi.com/darckrovert)
 

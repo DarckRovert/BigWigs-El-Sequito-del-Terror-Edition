@@ -4,7 +4,7 @@ Todos los cambios notables en este proyecto serán documentados en este archivo 
 
 ---
 
-## [v9.4.0] — 2026-04-07 [Omni-Tier]
+## [v2.0.0] — 2026-04-07 [Boss-Tier]
 
 ### 🏛️ Raid Encounter Sync (Mejoras)
 - **Turtle WoW Custom Bosses**: Módulos actualizados para Karazhan Upper/Lower, Emerald Sanctum y Black Morass.
@@ -22,7 +22,7 @@ Todos los cambios notables en este proyecto serán documentados en este archivo 
 
 | Versión | Fecha | Nombre Clave | Estado | Resumen |
 | :--- | :--- | :--- | :---: | :--- |
-| **9.4.0** | 2026-04-07 | **Omni-Tier** | ✅ | Orquestación táctica v9.4.0. |
+| **2.0.0** | 2026-04-07 | **Boss-Tier** | ✅ | Orquestación táctica v2.0.0. |
 | **9.3.1** | 2026-01-10 | **God-Tier** | ⚠️ | Versión inicial de corrección para Turtle. |
 | **9.2.0** | 2025-11-05 | **Raid-Fix** | ❌ | Mejoras en las barras de temporización. |
 

@@ -1,6 +1,6 @@
 ## Interface: 11200
 ## Title: |cffffffffBigWigs |r|cff00ccff[Séquito del Terror]|r
-## Version: 9.4.0 [Omni-Tier]
+## Version: 2.0.0 [Boss-Tier]
 ## Notes: Boss Mods with Timer bars. Optimized for Turtle WoW raids and Karazhan.
 ## Author: El Séquito del Terror (DarckRovert)
 ## X-TurtleWoW-Fixes: DarckRovert (Elnazzareno - El Sequito del Terror) - 2026
