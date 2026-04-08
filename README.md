@@ -35,12 +35,12 @@ Es la herramienta de orquestación de banda definitiva. Esta versión incluye m�
 
 ## 🏗️ Suite de Documentación (Wiki)
 
-Domina los encuentros más difíciles en nuestra base de conocimientos:
+Domina los encuentros más difíciles en nuestra base de conocimientos oficial:
 
-- 📐 **[Arquitectura de Encuentros](./wiki/Architecture.md)**: Cómo desarrollamos módulos para bosses custom.
-- 🛠️ **[Guía de API Raid Mod](./wiki/API_Guide.md)**: Hooks para alertas externas.
-- ❓ **[FAQ de Raideo](./wiki/FAQ.md)**: ¿Por qué no veo las barras de Kel'Thuzad?
-- 📖 **[Manual del Comandante](./wiki/User_Manual.md)**: Guía de configuración y perfiles.
+- 🏰 **[Arquitectura de Encuentros](https://github.com/DarckRovert/BigWigs-El-Sequito-del-Terror-Edition/wiki/Arquitectura-(Extended))**: Cómo desarrollamos módulos para bosses custom.
+- 🛠️ **[Guía de API Raid Mod](https://github.com/DarckRovert/BigWigs-El-Sequito-del-Terror-Edition/wiki/Guía-de-API)**: Hooks para alertas externas.
+- ❓ **[FAQ de Raideo](https://github.com/DarckRovert/BigWigs-El-Sequito-del-Terror-Edition/wiki/FAQ-(Boss-Mods))**: ¿Por qué no veo las barras de Kel'Thuzad?
+- 📖 **[Manual del Comandante](https://github.com/DarckRovert/BigWigs-El-Sequito-del-Terror-Edition/wiki/Manual-de-Usuario)**: Guía de configuración y perfiles.
 
 ## 🚀 Despliegue Rápido (Encounter-Flow)
 
