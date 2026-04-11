@@ -13,8 +13,8 @@ local COLOR_GREY = "808080"
 
 local isInitialQuery = true
 
-local fork = GetAddOnMetadata("BigWigs", "X-Fork")
-local website = GetAddOnMetadata("BigWigs", "X-Website")
+local fork = GetAddOnMetadata("BigWigs", "X-Fork") or "Séquito del Terror"
+local website = GetAddOnMetadata("BigWigs", "X-Website") or "github.com/DarckRovert"
 
 ---------------------------------
 --      Localization           --
@@ -52,14 +52,14 @@ L:RegisterTranslations("enUS", function()
 		["Runs a version query on the BigWigs core."] = true,
 		["Nr Replies"] = true,
 
-		["OutOfDate"] = "Your "..fork.." Big Wigs might be out of date!\nPlease visit "..website.." to get the latest version.",
+		["OutOfDate"] = "Your "..(fork or "BigWigs").." might be out of date!\nPlease visit "..(website or "the repository").." to get the latest version.",
 		["Close"] = true,
 		["Cancel"] = true,
 
-		["People with outdated [fork] BigWigs:"] = "People with outdated "..fork.." BigWigs:",
+		["People with outdated [fork] BigWigs:"] = "People with outdated "..(fork or "").." BigWigs:",
 		["Notify old versions"] = true,
 		["List people with old versions to raid chat."] = true,
-		["Download newest version from [website]"] = "Download newest version from "..website,
+		["Download newest version from [website]"] = "Download newest version from "..(website or "the official source"),
 
 		["Show popup"] = true,
 		["Show popup warning on out of date version"] = true,
