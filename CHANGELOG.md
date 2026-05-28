@@ -1,8 +1,13 @@
-﻿# Changelog â€” Advanced Boss Mods (BigWigs) ðŸ“ˆâš”ï¸
+# Changelog â€” Advanced Boss Mods (BigWigs) ðŸ“ˆâš”ï¸
 
 Todos los cambios notables en este proyecto serÃ¡n documentados en este archivo siguiendo el estÃ¡ndar **Diamond Tier** de **DarckRovert**.
 
 ---
+
+## [v2.0.1] - 2026-05-28 [God-Tier Sync]
+
+### 🧠 Neural AI Integration
+- **Integración WCS_Brain [God-Tier]**: Se ha expuesto la subida de eventos globales (`BigWigs_Message`) para la nueva IA Predictiva. Las mascotas de WCS_Brain ahora reaccionarán y evadirán el daño en área de forma autónoma al escuchar una alerta "Urgent" o "Alarm" del jefe de banda.
 
 ## [v2.0.0] â€” 2026-04-07 [Boss-Tier]
 

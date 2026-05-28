@@ -23,6 +23,13 @@ Es la herramienta de orquestación de banda definitiva. Esta versión incluye m�
 | **Terror Link** | Integration | Neural Raid Sync | Comunicación asíncrona con **TerrorSquadAI** |
 | **Apex Raid Skin** | Visual Mod | Diseño Diamond Tier | Barras elegantes y minimalistas integradas con pfUI |
 
+---
+
+## 🧠 WCS_Brain Integration [God-Tier]
+
+> [!IMPORTANT]
+> **Evasión de Mascotas Reactiva:** BigWigs expone sus eventos de barra y alertas urgentes al ecosistema para que **[WCS_Brain (El Núcleo Neuronal)](https://github.com/DarckRovert/WCS_Brain-v9.3.1-God-Tier)** lo escuche. Ahora tu mascota reaccionará automáticamente a las alertas de daño masivo del jefe (Meteoro, Void Zone, etc.) forzando un retorno hacia ti (`PetFollow`) para sobrevivir la explosión.
+
 ### ⚡ Benchmarks de Precisión Táctica (v9.4)
 
 | Operación | Latencia Séquito | Latencia Standard | Estado |
